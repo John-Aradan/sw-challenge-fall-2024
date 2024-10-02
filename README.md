@@ -22,8 +22,6 @@ Handling high-frequency tick data is essential in quantitative finance for tradi
 
 ## Requirements
 
-The task is completed using core Python libraries without external dependencies. You should be able to execute the provided Python code and generate the expected outputs without additional installations.
-
 ### 1. Data Loading
 
 This module reads thousands of CSV files, combines them into one, and stores them for further processing.
