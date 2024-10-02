@@ -1,3 +1,25 @@
+"""
+
+Notes:
+
+My record on how I approached the problem:
+    
+    Given that it is required to demonstrate OOP principles, I started by creating 
+    a class called DataCleaner
+    
+    There were 3 tasks that are required to be done which were (i) load the data from the csv file, 
+    (ii) to perfom operations on the data hece cleaning it and (iii) save it as a seperate csv file 
+    so that it would be eaiser to acccess it for future operations.
+    
+    So I created 3 functions load_data,clean_data and save_cleaned_data as 
+    instance functions to perform these operations
+    
+    I also created 2 more functions return_data, so I can analyze the loaded data 
+    and determine what all cleaning process needs to be done and plot_data 
+    so I could see the overall distribution of the data accross various features.
+    
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import warnings

@@ -1,3 +1,26 @@
+"""
+
+Notes:
+    
+This was comparitely a nit harder problem
+
+My record on how I approached the problem:
+    
+    Given that it is required to demonstrate OOP principles, I started by creating 
+    a class called DataOHLVC
+    
+    There were 3 tasks that are required to be done which were (i) load the data from the csv file, 
+    (ii) create a new dataframe that stores the required values with a time period and 
+    (iii) save it as a seperate csv file so that it would be eaiser to acccess it for future operations.
+    
+    So I created 3 functions load_data, generate_ohlcv and save_cleaned_data as 
+    instance functions to perform these operations
+    
+    I also created 2 more functions (i) parse_interval - to convert the time period given to seconds, 
+    (ii) valid_interval - to make sure the interval given is of valid format.
+    
+"""
+
 import pandas as pd
 import warnings
 import re

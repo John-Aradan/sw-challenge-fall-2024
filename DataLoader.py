@@ -1,3 +1,23 @@
+"""
+
+Notes:
+    
+I chose to split into 3 files due to the following reasons:
+    1. It was easier to split the problem into three parts
+    2. Incase one for another project we may need just want one part this split might be helpful
+
+My record on how I approached the problem:
+    
+    Given that it is required to demonstrate OOP principles, I started by creating 
+    a class called DataLoader
+    
+    Since there were only 2 tasks that are required to be done which were (i) to combine 
+    and load all the seperate csv files and (ii) save it as a seperate csv file so that it would be eaiser to acccess it for future operations.
+    
+    So I created 2 functions load_data and save_read_data as instance functions to perform these operations
+    
+"""
+
 import os
 import pandas as pd
 from glob import glob
